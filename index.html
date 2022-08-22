@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get date</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="h1">تاریخ</h1>
+    <div id="d1">
+        <input id="miladi" type="button" value="میلادی">
+        <input id="shamsi" type="button" value="هجری شمسی">
+    </div>
+    <div id="d2">
+        <h3 class="date" id="h33">day :</h3>
+        <input id="get_day" class="getdate" type="number" value="">
+        <h3 class="date" id="h32">month :</h3>
+        <input id="get_month" class="getdate" type="number" value="">
+        <h3 class="date" id="h31">year :</h3>
+        <input id="get_year" class="getdate" type="number" value="">
+    </div>
+    <div id="d3">
+        <input id="cts" class="convert" type="button" value="تبدیل میلادی به هجری شمسی">
+        <input id="ctm" class="convert" type="button" value="تبدیل هجری شمسی به میلادی">
+        <br>
+        <input id="getweek" class="conver2" type="button" value="روز هفته">
+        <input id="restart" class="conver2" type="button" value="restart">
+    </div>
+    <div>
+        <h2 id="h2"></h2>
+    </div>
+    <script src="package/jalali-moment.js"></script>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
